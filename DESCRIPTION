@@ -11,3 +11,5 @@ RoxygenNote: 7.3.3
 Imports: 
     gtsummary,
     tidyselect
+URL: https://github.com/melindahiggins2000/mytablepkg
+BugReports: https://github.com/melindahiggins2000/mytablepkg/issues
