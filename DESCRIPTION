@@ -13,3 +13,6 @@ Imports:
     tidyselect
 URL: https://github.com/melindahiggins2000/mytablepkg
 BugReports: https://github.com/melindahiggins2000/mytablepkg/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

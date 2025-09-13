@@ -7,8 +7,7 @@
 #' @export
 #'
 #' @examples
-#' cont_table(varlist = c("mpg", "wt"),
-#'            data = mtcars)
+#' cont_table(varlist = c("mpg", "wt"), data = mtcars)
 cont_table <- function(varlist, data){
   gtsummary::tbl_summary(
     data = data,

@@ -18,6 +18,5 @@ a gtsummary table of class "tbl_summary"
 Title
 }
 \examples{
-cont_table(varlist = c("mpg", "wt"),
-           data = mtcars)
+cont_table(varlist = c("mpg", "wt"), data = mtcars)
 }
