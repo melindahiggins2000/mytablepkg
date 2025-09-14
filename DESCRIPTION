@@ -18,5 +18,6 @@ Suggests:
     rmarkdown,
     testthat (>= 3.0.0),
     palmerpenguins,
+    dplyr
 Config/testthat/edition: 3
 VignetteBuilder: knitr

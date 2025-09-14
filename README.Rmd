@@ -40,9 +40,8 @@ This is a basic example which shows you how to get a table for normally distribu
 
 ```{r example, message = FALSE, warning = FALSE}
 library(mytablepkg)
-mytablepkg::cont_table(
-  c("mpg", "wt"),
-  mtcars
-)
+library(dplyr)
+mytablepkg::cont_table(c("mpg", "wt"), mtcars) %>%
+  gtsummary::as_gt()
 
 ```
