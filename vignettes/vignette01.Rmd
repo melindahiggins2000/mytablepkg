@@ -1,0 +1,37 @@
+---
+title: "vignette01"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vignette01}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(mytablepkg)
+```
+
+## Examples using builtin datasets
+
+### Using `mtcars` dataset
+
+```{r}
+cont_table(varlist = c("mpg", "wt"), data = mtcars)
+```
+
+### palmerpenguins package and the penguins dataset
+
+```{r}
+library(palmerpenguins)
+cont_table(varlist = c("bill_length_mm", 
+                       "body_mass_g"), 
+           data = penguins)
+```
+

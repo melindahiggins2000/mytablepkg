@@ -11,8 +11,11 @@ RoxygenNote: 7.3.3
 Imports: 
     gtsummary,
     tidyselect
-URL: https://github.com/melindahiggins2000/mytablepkg
+URL: https://github.com/melindahiggins2000/mytablepkg, https://melindahiggins2000.github.io/mytablepkg/
 BugReports: https://github.com/melindahiggins2000/mytablepkg/issues
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+VignetteBuilder: knitr
