@@ -4,9 +4,11 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, include = FALSE}
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
+  warning = FALSE,
+  message = FALSE,
   comment = "#>",
   fig.path = "man/figures/README-",
   out.width = "100%"
@@ -34,14 +36,29 @@ You can install the development version of mytablepkg from [GitHub](https://gith
 pak::pak("melindahiggins2000/mytablepkg")
 ```
 
-## Example with mtcars
+## Example with `mtcars`
 
 This is a basic example which shows you how to get a table for normally distributed continuous variables showing the mean and standard deviation.
 
-```{r example, message = FALSE, warning = FALSE}
+```{r example01a, echo = TRUE, eval = FALSE}
 library(mytablepkg)
-library(dplyr)
-mytablepkg::cont_table(c("mpg", "wt"), mtcars) %>%
-  gtsummary::as_gt()
-
+mytablepkg::cont_table(c("mpg", "wt"), mtcars)
 ```
+
+
+```{r example01b, echo = FALSE, eval = TRUE}
+library(mytablepkg)
+mytablepkg::cont_table(c("mpg", "wt"), mtcars) |>
+  gtsummary::as_gt() |>
+  gt::gtsave(file = "man/figures/README-example01b.png")
+```
+
+```{r out.width = "50%", echo = FALSE, eval = TRUE}
+knitr::include_graphics(
+  "man/figures/README-example01b.png")
+```
+
+
+
+
+
