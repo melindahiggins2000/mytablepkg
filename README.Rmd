@@ -16,6 +16,8 @@ knitr::opts_chunk$set(
 # mytablepkg
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/melindahiggins2000/mytablepkg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/melindahiggins2000/mytablepkg/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/melindahiggins2000/mytablepkg/graph/badge.svg)](https://app.codecov.io/gh/melindahiggins2000/mytablepkg)
 <!-- badges: end -->
 
 The goal of `mytablepkg` is to make tables easier from the `gtsummary::tbl_summary()` functions.
