@@ -31,17 +31,19 @@ You can install the development version of mytablepkg from [GitHub](https://gith
 pak::pak("melindahiggins2000/mytablepkg")
 ```
 
-## Example with `palmerpenguins` package data
+## Example with mtcars
 
 This is a basic example which shows you how to get a table for normally distributed continuous variables showing the mean and standard deviation.
 
 ```{r example, message = FALSE, warning = FALSE}
 library(mytablepkg)
-library(palmerpenguins)
 mytablepkg::cont_table(
-  c("bill_length_mm", "body_mass_g"),
-  penguins
+  c("mpg", "wt"),
+  mtcars
 )
+
 ```
+
+
 
 
