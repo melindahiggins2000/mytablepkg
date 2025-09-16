@@ -1,0 +1,24 @@
+---
+title: "Article Example"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(mytablepkg)
+```
+
+## Why an article
+
+I can write and article available on pkgdown site but not needed for CRAN - won't show up on CRAN.
+
+### Example using `mtcars` dataset
+
+```{r}
+cont_table(varlist = c("mpg", "wt"), data = mtcars)
+```

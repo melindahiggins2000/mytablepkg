@@ -2,7 +2,7 @@
 % Please edit documentation in R/cont_table.R
 \name{cont_table}
 \alias{cont_table}
-\title{Title}
+\title{Table of Descriptive Statistics for Continuous Variables}
 \usage{
 cont_table(varlist, data)
 }
@@ -15,7 +15,8 @@ cont_table(varlist, data)
 a gtsummary table of class "tbl_summary"
 }
 \description{
-Title
+The \code{cont_table()} function is built upon the
+\code{\link[gtsummary:tbl_summary]{gtsummary::tbl_summary()}} function from the \href{https://www.danieldsjoberg.com/gtsummary/index.html}{\code{gtsummary}} package. Try internal package link \link[gtsummary:gtsummary-package]{gtsummary::gtsummary}.
 }
 \examples{
 cont_table(varlist = c("mpg", "wt"), data = mtcars)

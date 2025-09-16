@@ -11,7 +11,7 @@ coverage](https://codecov.io/gh/melindahiggins2000/mytablepkg/graph/badge.svg)](
 <!-- badges: end -->
 
 The goal of `mytablepkg` is to make tables easier from the
-`gtsummary::tbl_summary()` functions. Add more here xx.
+`gtsummary::tbl_summary()` function. Add more here xx.
 
 ## Installation
 

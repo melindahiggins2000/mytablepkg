@@ -1,4 +1,7 @@
-#' Title
+#' Table of Descriptive Statistics for Continuous Variables
+#'
+#' The `cont_table()` function is built upon the
+#' [gtsummary::tbl_summary()] function from the [`gtsummary`](https://www.danieldsjoberg.com/gtsummary/index.html) package. Try internal package link [gtsummary].
 #'
 #' @param varlist list of variables for table
 #' @param data data.frame for dataset
