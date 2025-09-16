@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   articles/article01: article01.html
   vignette01: vignette01.html
-last_built: 2025-09-16T19:15Z
+last_built: 2025-09-16T19:59Z
 urls:
   reference: https://melindahiggins2000.github.io/mytablepkg/reference
   article: https://melindahiggins2000.github.io/mytablepkg/articles
